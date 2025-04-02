@@ -3,7 +3,6 @@ import java.util.List;
 
 public class Alumno {
     private final List<Materia> materiasAprobadas;
-    private Inscripcion miInscripcion;
 
     public Alumno(List<Materia> materiasAprobadas) {
         this.materiasAprobadas = materiasAprobadas;
